@@ -13,6 +13,7 @@
 		0477D9FD254981D900C27F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477D9FB254981D900C27F75 /* Main.storyboard */; };
 		0477D9FF254981DE00C27F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0477D9FE254981DE00C27F75 /* Assets.xcassets */; };
 		0477DA02254981DE00C27F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477DA00254981DE00C27F75 /* LaunchScreen.storyboard */; };
+		0477DA0B2549835A00C27F75 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477DA0A2549835A00C27F75 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0477D9FE254981DE00C27F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0477DA01254981DE00C27F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0477DA03254981DE00C27F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0477DA0A2549835A00C27F75 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0477D9F5254981D900C27F75 /* AppDelegate.swift */,
 				0477D9F7254981D900C27F75 /* SceneDelegate.swift */,
 				0477D9F9254981D900C27F75 /* ViewController.swift */,
+				0477DA0A2549835A00C27F75 /* CollectionViewCell.swift */,
 				0477D9FB254981D900C27F75 /* Main.storyboard */,
 				0477D9FE254981DE00C27F75 /* Assets.xcassets */,
 				0477DA00254981DE00C27F75 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				0477D9FA254981D900C27F75 /* ViewController.swift in Sources */,
 				0477D9F6254981D900C27F75 /* AppDelegate.swift in Sources */,
+				0477DA0B2549835A00C27F75 /* CollectionViewCell.swift in Sources */,
 				0477D9F8254981D900C27F75 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56XQB6H3G7;
 				INFOPLIST_FILE = ExpandCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56XQB6H3G7;
 				INFOPLIST_FILE = ExpandCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
